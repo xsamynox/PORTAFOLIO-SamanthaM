@@ -1,0 +1,9 @@
+.card-color{
+  background: rgba(98, 172, 176, 0.8);
+  color: #ffff;
+  position: absolute;
+  margin-top: 60.5%;
+}
+.size-card{
+  height: 360px;
+}

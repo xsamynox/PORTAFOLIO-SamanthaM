@@ -1,38 +1,138 @@
-.App {
+body{
+  margin: 0;
+}
+header{
+  background-color: rgba(64, 65, 67, 0.8);
+  padding: 50px 20px 0 20px;
+  width: 100%;
+}
+.ctn-body{
+  background-color: #62ACB0;
+  height: 520px;
+}
+.ctn-body1{
+  background-color: #62ACB0;
+  height: 160px;
+}
+.ctn-title{
+  padding-top: 15%;
+}
+.ctn-title1{
+  padding-top: 5%;
+}
+.nav-color{
+  background-color: rgba(64, 65, 67, 0.8);
+}
+.nav-color1{
+  background-color: rgba(98, 172, 176, 0.8);
+}
+.nav-color1 a{
+  color: #ffffff;
+}
+.nav-color a{
+  color: #ffffff;
+}
+.nav-color a:hover {
+  color: rgba(16, 18, 20, 0.8);;
+  text-decoration: underline;
+}
+.menu, .rrss{
+  color: #ffffff;
+  width: 35px;
+  height: 35px;
+}
+.color-menu{
+  background-color: rgba(64, 65, 67, -0.2);
+}
+.title{
+  color: #ffffff;
+  font-family: 'Amaranth', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 14px;
+  margin-bottom: 0;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.sub-title{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+}
+.image-sam{
+  width: 181px;
+  height: auto;
+  position: absolute;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  left: 25.87%;
+  right: 25.87%;
+  top: 30.89%;
+  bottom: 53.18%;
+}
+.image-sam1{
+  width: 100px;
+  height: auto;
+  position: absolute;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  left: 36%;
+  right: 25.87%;
+  top: 1%;
+  bottom: 53.18%;
+}
+.fixed-top1{
+  z-index: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-conoceme{
+  position: absolute;
+  width: 151px;
+  height: 50px;
+  left: 111px;
+  top: 436px;
+  border-radius: 8px;
+  border: none;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #62ACB0;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+.btn-conoceme:hover{
+  background-color: rgba(64, 65, 67, 0.8);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+footer{
+  background-color: rgba(16, 18, 20, 0.8);
+  width: 100%;
+  bottom: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 98px;
+  justify-content: space-between;
+  padding: 30px 20px 20px 20px;
 }
-
-.App-link {
-  color: #61dafb;
+footer h1{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 14px;
+  margin-bottom: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer h3{
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+/* Error */
+.error{
+  background-color: #ffffff;
+}
+.img-error{
+  width: 100%;
+  height: 519px;
+  padding: 65px 10px 65px;
 }
