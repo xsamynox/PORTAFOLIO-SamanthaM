@@ -24,7 +24,7 @@ header{
   background-color: rgba(64, 65, 67, 0.8);
 }
 .nav-color1{
-  background-color: rgba(98, 172, 176, 0.8);
+  background-color:rgba(64, 65, 67, 0.8);
 }
 .nav-color1 a{
   color: #ffffff;
@@ -82,7 +82,7 @@ header{
   bottom: 53.18%;
 }
 .fixed-top1{
-  z-index: 0;
+  z-index: 100;
 }
 
 .btn-conoceme{
@@ -111,6 +111,7 @@ footer{
   height: 98px;
   justify-content: space-between;
   padding: 30px 20px 20px 20px;
+  position: absolute;
 }
 footer h1{
   color: #ffffff;
