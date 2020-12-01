@@ -15,6 +15,7 @@ const Footer = () => {
           <span className="iconify rrss" data-inline="false" data-icon="ion:logo-linkedin"></span>
         </a>
       </div>
+
     </footer>
   );
 }
