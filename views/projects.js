@@ -12,7 +12,7 @@ const projects = () => {
     <div>
       <Header />
       <div className='title-contact'>
-        <p>SKILLS</p>
+        <p>PROYECTS</p>
         <hr />
       </div>
       <CarouselProjects />

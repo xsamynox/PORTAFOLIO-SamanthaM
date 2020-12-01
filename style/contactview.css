@@ -4,19 +4,20 @@
   position: absolute;
   left: 34.4%;
   right: 34.4%;
-  top: 25.64%;
+  top: 21.64%;
   bottom: 56.31%;
   z-index: 99;
 }
 .contact{ 
   position: absolute;
-  padding: 70px 20px;
+  padding: 60px 20px;
+  color: #ffffff;
   background-color: #62ACB0;
   width: 335px;
-  height: 260px;
+  height: 470px;
   border-radius: 10px;
   left: 22px;
-  top: 231px;
+  top: 200px;
 }
 
 hr{
@@ -45,7 +46,6 @@ hr{
   font-weight: 600;
   margin-left: 10px;
   font-family: 'Montserrat', sans-serif;
-
 }
 .ctn-contact{
   display: flex;
