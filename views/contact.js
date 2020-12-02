@@ -16,7 +16,7 @@ const contact = () => {
         <p>CONTACTAME</p>
         <hr />
       </div>
-      {/* <p className="text-center w-responsive mx-auto mb-5">¿Tienes alguna pregunta? No dudes en contactarme directamente.</p> */}
+      <p style={{ color: '#73808D', padding: '0 20px' }}>¿Tienes alguna pregunta? No dudes en contactarme directamente.</p>
 
       <img className='img-sam' src={Samantha} alt='Samantha Moreno' />
 
@@ -39,7 +39,7 @@ const contact = () => {
         </div> */}
 
       </section>
-      {/* <Footer /> */}
+      <Footer />
     </div >
   )
 }

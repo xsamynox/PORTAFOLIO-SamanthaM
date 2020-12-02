@@ -4,7 +4,7 @@ import ButtonContact from './ButtonContact.jsx';
 const ContactForm = () => {
 
   return (
-    <section className="mb-4 container-contact">
+    <section className="mb-4">
 
       <div className="row">
 
@@ -14,14 +14,14 @@ const ContactForm = () => {
             <div className="row">
               <div className="col-md-6">
                 <div className="md-form mb-0">
-                  <label for="name" className="">Nombre</label>
+                  <label htmlFor="name" className="">Nombre</label>
                   <input type="text" id="name" name="name" className="form-control" />
                 </div>
               </div>
 
               <div className="col-md-6">
                 <div className="md-form mb-0">
-                  <label for="email" className="">Email</label>
+                  <label htmlFor="email" className="">Email</label>
                   <input type="text" id="email" name="email" className="form-control" />
                 </div>
               </div>
@@ -30,7 +30,7 @@ const ContactForm = () => {
             <div className="row">
               <div className="col-md-12">
                 <div className="md-form mb-0">
-                  <label for="subject" className="">Asunto</label>
+                  <label htmlFor="subject" className="">Asunto</label>
                   <input type="text" id="subject" name="subject" className="form-control" />
                 </div>
               </div>
@@ -40,7 +40,7 @@ const ContactForm = () => {
               <div className="col-md-12">
 
                 <div className="md-form">
-                  <label for="message">Mensaje</label>
+                  <label htmlFor="message">Mensaje</label>
                   <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea"></textarea>
                 </div>
 
@@ -51,7 +51,23 @@ const ContactForm = () => {
           <div className="text-center text-md-left">
             <ButtonContact className="btn btn-primary" onclick="document.getElementById('contact-form').submit();"></ButtonContact>
           </div>
-          {/* <div className="status"></div> */}
+        </div>
+
+
+        <div className="container-contact">
+          <ul className="list-unstyled mb-0">
+            <li><i className="fas fa-map-marker-alt fa-2x"></i>
+              <p>Santiago de Chile, Chile</p>
+            </li>
+
+            <li><i className="fas fa-phone mt-4 fa-2x"></i>
+              <p>+ 56 9 50317625</p>
+            </li>
+
+            <li><i className="fas fa-envelope mt-4 fa-2x"></i>
+              <p>xsamynox@gmail.com</p>
+            </li>
+          </ul>
         </div>
       </div>
 

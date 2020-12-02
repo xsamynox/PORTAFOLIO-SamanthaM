@@ -4,7 +4,7 @@
   position: absolute;
   left: 34.4%;
   right: 34.4%;
-  top: 21.64%;
+  top: 30.64%;
   bottom: 56.31%;
   z-index: 99;
 }
@@ -17,7 +17,7 @@
   height: 470px;
   border-radius: 10px;
   left: 22px;
-  top: 200px;
+  top: 39%;
 }
 
 hr{
@@ -50,4 +50,16 @@ hr{
 .ctn-contact{
   display: flex;
   margin-bottom: 20px;
+}
+.container-contact{
+  padding: 20px;
+  background-color: #62ACB0;
+  width: 334px;
+  height: 300px;
+  border-radius: 10px;
+  left: 22px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 30%;
 }
