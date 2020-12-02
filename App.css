@@ -166,3 +166,15 @@ label {
 .form-control:active{
   background-color: #62ACB0;
 }
+.title-second{
+  margin-top: 20px;
+  padding: 0 20px;
+}
+.title-second p{
+  margin-bottom: 0;
+  font-size: 0.9375em;
+  color: #73808D;
+  font-weight: 800;
+  font-family: 'Montserrat', sans-serif;
+  text-align: left;
+}
