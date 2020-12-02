@@ -1,9 +1,26 @@
-.card-color{
-  background: rgba(98, 172, 176, 0.8);
-  color: #ffff;
+.carousel-caption{
+  background-color: rgba(98, 172, 176, 0.8);
   position: absolute;
-  margin-top: 60.5%;
+  right: 13%;
+  bottom: 48px;
+  left: 13%;
+  z-index: 10;
+  padding-bottom: 20px;
+  color: #fff;
+  text-align: initial;
+  border-radius: 0 0 10px 10px;
+  padding: 10px;
 }
-.size-card{
-  height: 360px;
+.carousel-caption p {
+ line-height: 1.2rem;
+ margin-bottom: 0;
+}
+.carousel-caption h5 {
+  text-align: center;
+}
+.img-carousel{
+  padding: 13%;
+}
+.carousel-indicators li{
+  background-color: #62ACB0;
 }
