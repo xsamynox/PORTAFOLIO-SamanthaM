@@ -16,11 +16,11 @@ const contact = () => {
         <p>CONTACTAME</p>
         <hr />
       </div>
-      <p style={{ color: '#73808D', padding: '0 20px' }}>¿Tienes alguna pregunta? No dudes en contactarme directamente.</p>
+      <p style={{ color: '#73808D', padding: '0 20px', marginBottom: '9vh' }}>¿Tienes alguna pregunta? No dudes en contactarme directamente.</p>
 
       <img className='img-sam' src={Samantha} alt='Samantha Moreno' />
 
-      <section className='contact'>
+      <section className='contact container'>
         <ContactForm />
 
         {/* <div className='ctn-contact'>

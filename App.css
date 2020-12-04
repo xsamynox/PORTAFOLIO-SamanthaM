@@ -1,22 +1,28 @@
 body{
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  background-image: url("../src/images/b-color3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 header{
-  background-color: rgba(64, 65, 67, 0.8);
+  background-color: #404143;
   padding: 50px 20px 0 20px;
   width: 100%;
 }
 .ctn-body{
   background-color: #62ACB0;
-  height: 520px;
+  height: 93vh;
+  background-image: url("../src/images/b-color6.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .ctn-body1{
   background-color: #62ACB0;
   height: 160px;
 }
 .ctn-title{
-  padding-top: 15%;
+  padding-top: 10vh;
 }
 .ctn-title1{
   padding-top: 5%;
@@ -34,7 +40,7 @@ header{
   color: #ffffff;
 }
 .nav-color a:hover {
-  color: rgba(16, 18, 20, 0.8);;
+  color: #62ACB0;
   text-decoration: underline;
 }
 .menu, .rrss{
@@ -50,7 +56,7 @@ header{
   font-family: 'Amaranth', sans-serif;
   font-size: 30px;
   font-weight: 600;
-  line-height: 14px;
+  /* line-height: 14px; */
   margin-bottom: 0;
   text-align: center;
 }
@@ -58,18 +64,19 @@ header{
   color: #ffffff;
   font-size: 20px;
   font-weight: 400;
-  margin-top: 10px;
   text-align: center;
 }
 .image-sam{
-  width: 181px;
+  width: 46vw;
   height: auto;
-  position: absolute;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  left: 25.87%;
-  right: 25.87%;
   top: 30.89%;
   bottom: 53.18%;
+}
+.ctn-img{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
 }
 .image-sam1{
   width: 100px;
@@ -86,8 +93,8 @@ header{
 }
 
 .btn-conoceme{
-  position: absolute;
-  width: 151px;
+  /* position: absolute; */
+  width: 23vh;
   height: 50px;
   left: 111px;
   top: 436px;
@@ -97,13 +104,15 @@ header{
   color: #62ACB0;
   background-color: #ffffff;
   font-weight: 600;
+  font-size: 1em;
 }
 .btn-conoceme:hover{
-  background-color: rgba(64, 65, 67, 0.8);
+  background-color: #26686c;
+  color: #ffffff;
 }
 
 footer{
-  background-color: rgba(16, 18, 20, 0.8);
+  background-color: #404143;
   width: 100%;
   bottom: 0;
   height: 98px;
@@ -146,6 +155,10 @@ footer h3{
   background-color: #ffffff;
   font-weight: 600;
 }
+.btn-contact:hover{
+  background-color: #26686c;
+  color: #ffffff;
+}
 label {
     display: inline-block;
     margin-bottom: 0;
@@ -165,6 +178,11 @@ label {
 .title-second{
   margin-top: 20px;
   padding: 0 20px;
+  margin-top: 20px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-around;
+  justify-content: right;
 }
 .title-second p{
   margin-bottom: 0;
@@ -172,4 +190,23 @@ label {
   color: #73808D;
   font-weight: 800;
   text-align: left;
+}
+
+@media (min-width: 1440px) and (max-width: 2560px) {
+.image-sam{
+  width: 20vw;
+}
+.title{
+  font-size: 60px;
+}
+.sub-title{
+  font-size: 30px;
+}
+.container,
+.container-contact, .contact{
+  margin-top: 0;
+  margin: auto;
+  width: 60vw;
+  font-size: 1.3em;
+}
 }

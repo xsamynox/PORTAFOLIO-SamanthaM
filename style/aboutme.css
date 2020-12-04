@@ -1,8 +1,8 @@
 .container{
   padding: 20px;
   background-color: #62ACB0;
-  width: 335px;
-  height: 400px;
+  width: 90vw;
+  height: auto;
   border-radius: 10px;
   left: 22px;
 }
@@ -25,11 +25,11 @@ margin-left: 10px;
 }
 .ctn-hobbies{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .hobbies{
-  width: 48px;
-  height: 48px;
+  width: 8vh;
+  height: auto;
 }
 
 /* Popover */
