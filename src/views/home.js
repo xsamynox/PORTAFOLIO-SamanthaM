@@ -52,8 +52,10 @@ const home = () => {
           <h1 className="title">Samantha Moreno</h1>
           <h3 className="sub-title">Front-end Developer</h3>
         </div>
-        <div>
+        <div className='ctn-img'>
           <img className='image-sam' src={samantha} alt="Samantha" />
+        </div>
+        <div className='ctn-img'>
           <Button />
         </div>
       </section>

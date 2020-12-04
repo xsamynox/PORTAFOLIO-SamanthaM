@@ -2,7 +2,7 @@ import React from 'react';
 
 const Botton = () => {
   return (
-    <div>
+    <div className='ctn-btn'>
       <a href='/aboutme'><button className="btn-conoceme">Conóceme</button></a>
     </div>
   );
