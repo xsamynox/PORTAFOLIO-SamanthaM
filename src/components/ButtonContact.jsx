@@ -5,5 +5,4 @@ const BottonContact = () => {
         <button className="btn-contact">Contactame</button>
     );
 }
-
 export default BottonContact;

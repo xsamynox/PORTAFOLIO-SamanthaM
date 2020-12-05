@@ -32,9 +32,6 @@ const AboutMe = () => {
       </div>
       <section className='container'>
         <p className='text-contact'>
-          {/* Venezolana viviendo en Santigo de Chile. */}
-          {/* <span className="iconify" data-inline="false" data-icon="emojione:flag-for-venezuela" style={{ fontSize: '40px' }}></span>
-          <span className="iconify" data-inline="false" data-icon="emojione:flag-for-chile" style={{ fontSize: '40px' }}></span> */}
           ¡Hola! <br />
           <br />
 Soy Samantha y soy Desarrolladora web, en constante aprendizaje y búsqueda de nuevas tecnologías, con la capacidad de asumir y adaptarme a nuevos desafíos y a trabajar en equipo.<br /> <br />
