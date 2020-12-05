@@ -2,3 +2,10 @@
     display: flex;
     justify-content: space-between;
 }
+.container-icon p {
+    color: #ffffff;
+}
+.icon-skills{ 
+    color: #ffffff;
+    font-size: 6vh;
+}

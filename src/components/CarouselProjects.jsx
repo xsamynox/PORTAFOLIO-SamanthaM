@@ -1,9 +1,9 @@
 import React from 'react';
-import datalover from '../images/projects.png';
-import EasyCook from '../images/easycook.png';
+import datalover from '../images/d-lovers.png';
+import EasyCook from '../images/Easycook.png';
 import RetroBurger from '../images/retroburger.png';
 import Comidapt from '../images/comidapt.png';
-import mdlinks from '../images/mdlinks.png';
+import mdlinks from '../images/md-links.png';
 import arrow1 from '../images/arrow1.png';
 import arrow2 from '../images/arrow2.png';
 import '../style/carouselProjects.css';
@@ -11,7 +11,7 @@ import '../style/carouselProjects.css';
 
 const CarouselProjects = () => {
   return (
-    <div className="bd-example">
+    <div className="bd-example c-mobile">
       <div id="carouselExampleCaptions" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li data-target="#carouselExampleCaptions" data-slide-to="0" className="active"></li>
