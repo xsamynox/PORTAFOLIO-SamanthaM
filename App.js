@@ -5,9 +5,9 @@ import {
 import Home from '../src/views/home.js';
 import Aboutme from '../src/views/aboutme.js';
 import Projects from '../src/views/projects.js';
-import Curriculum from '../src/views/curriculum.js';
 import Skills from '../src/views/skills.js';
 import Contact from '../src/views/contact.js';
+import NotFoundPage from '../src/components/NoFound.jsx';
 import './App.css';
 
 function App() {
@@ -22,9 +22,6 @@ function App() {
         exact path="/aboutme"
         render={() => <Aboutme />} />
       <Route
-        exact path="/curriculum"
-        render={() => <Curriculum />} />
-      <Route
         exact path="/skills"
         render={() => <Skills />} />
       <Route
@@ -33,6 +30,7 @@ function App() {
       <Route
         exact path="/contact"
         render={() => <Contact />} />
+      <Route component={NotFoundPage} />
     </Router >
   );
 }

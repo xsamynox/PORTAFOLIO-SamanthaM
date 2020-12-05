@@ -1,4 +1,5 @@
 import React from 'react';
+import CURRICULUM from '../curriculum/CV-Samantha-Moreno.pdf';
 import ButtonContact from './ButtonContact.jsx';
 
 const ContactForm = () => {
@@ -52,6 +53,9 @@ const ContactForm = () => {
             <div className="text-center text-md-left">
               <ButtonContact className="btn btn-primary" onclick="document.getElementById('contact-form').submit();"></ButtonContact>
             </div>
+            <div className="text-center text-md-left">
+              <a className='btn-descarga' href={CURRICULUM} download="Samantha CV (ver. 2.0.1).pdf">Descarga mi CV</a>
+            </div>
           </div>
 
           <div className="container-contact">
@@ -61,18 +65,12 @@ const ContactForm = () => {
               <li><i className="fas fa-map-marker-alt fa-2x"></i>
                 <p>Santiago de Chile, Chile</p>
               </li>
-
-              <li><i className="fas fa-phone mt-4 fa-2x"></i>
-                <p>+ 56 9 50317625</p>
-              </li>
-
               <li><i className="fas fa-envelope mt-4 fa-2x"></i>
                 <p>xsamynox@gmail.com</p>
               </li>
             </ul>
           </div>
         </div>
-
 
       </section>
     </section>
