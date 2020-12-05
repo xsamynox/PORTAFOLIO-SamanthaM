@@ -209,9 +209,9 @@ header, .nav-color1{
 }
 .container{
   margin: auto;
-  width: 60vw;
+  width: 50vw;
   font-size: 1.2em;
-  height: 50vh;
+  height: 60vh;
 }
 .title-contact, .text-contact1{
   margin: 30px 60px;
