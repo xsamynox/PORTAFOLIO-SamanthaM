@@ -50,6 +50,8 @@ const ContactForm = () => {
               </div>
             </form>
 
+          </div>
+          <div className='ctn-btns'>
             <div className="text-center text-md-left">
               <ButtonContact className="btn btn-primary" onclick="document.getElementById('contact-form').submit();"></ButtonContact>
             </div>
@@ -60,7 +62,7 @@ const ContactForm = () => {
 
           <div className="container-contact">
             <ul className="list-unstyled mb-0">
-              <hr style={{ background: 'white', height: '3px', marginBottom: '10%' }} />
+              <hr className='hr-contact' />
 
               <li><i className="fas fa-map-marker-alt fa-2x"></i>
                 <p>Santiago de Chile, Chile</p>

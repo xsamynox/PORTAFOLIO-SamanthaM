@@ -16,7 +16,7 @@ const contact = () => {
         <p>CONTACTAME</p>
         <hr />
       </div>
-      <p style={{ color: '#73808D', padding: '0 20px', marginBottom: '9vh' }}>¿Tienes alguna pregunta? No dudes en contactarme directamente.</p>
+      <p className='text-contact1'>¿Tienes alguna pregunta? No dudes en contactarme directamente.</p>
 
       <img className='img-sam' src={Samantha} alt='Samantha Moreno' />
 

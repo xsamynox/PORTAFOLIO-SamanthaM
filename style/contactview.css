@@ -4,7 +4,7 @@
   position: absolute;
   left: 34.4%;
   right: 34.4%;
-  top: 29.64%;
+  top: 30.64%;
   bottom: 56.31%;
   z-index: 99;
 }
@@ -34,7 +34,7 @@ hr{
   padding: 0 20px;
 }
 .title-contact p{
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 0;
   font-size: 3vh;
   color: #73808D;
@@ -48,6 +48,12 @@ hr{
   font-weight: 600;
   margin-left: 10px;
   font-family: 'Montserrat', sans-serif;
+}
+.text-contact1{
+  color: #73808D;
+  padding: 0 20px; 
+  margin-bottom: 9vh;
+  font-size: 2vh;
 }
 .ctn-contact{
   display: flex;
@@ -71,12 +77,23 @@ hr{
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 1em;
 }
 .btn-descarga:hover{
     background-color: #26686c;
   color: #ffffff;
+}
+.ctn-btns{
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  /* text-align: center; */
+  margin: auto;
+} 
+.hr-contact{
+  background: #ffffff;
+  height: 3px;
+  margin-bottom: 10%;
 }
