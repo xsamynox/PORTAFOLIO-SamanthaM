@@ -7,7 +7,7 @@ import Aboutme from '../src/views/aboutme.js';
 import Projects from '../src/views/projects.js';
 import Skills from '../src/views/skills.js';
 import Contact from '../src/views/contact.js';
-import NotFoundPage from '../src/components/NoFound.jsx';
+// import NotFoundPage from '../src/components/NoFound.jsx';
 import './App.css';
 
 function App() {
@@ -30,7 +30,7 @@ function App() {
       <Route
         exact path="/contact"
         render={() => <Contact />} />
-      <Route component={NotFoundPage} />
+      {/* <Route component={NotFoundPage} /> */}
     </Router >
   );
 }

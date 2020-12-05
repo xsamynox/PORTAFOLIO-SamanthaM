@@ -1,5 +1,5 @@
 import React from 'react';
-import Sami from '../images/Samantha.png';
+// import Sami from '../images/Samantha.png';
 
 const Header = () => {
   return (
@@ -9,9 +9,9 @@ const Header = () => {
           aria-expanded="false" aria-label="Toggle navigation" className="iconify menu" data-inline="false"
           data-icon="heroicons-outline:menu" />
 
-        <div>
+        {/* <div>
           <img src={Sami} alt='Samantha' className='img-header' />
-        </div>
+        </div> */}
 
         <div className="collapse navbar-collapse color-menu" id="navbarTogglerDemo01">
           <ul className="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -33,7 +33,7 @@ const Header = () => {
           </ul>
         </div>
       </nav>
-    </header>
+    </header >
   );
 }
 export default Header;
