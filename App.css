@@ -9,7 +9,6 @@ header{
   background-color: #404143;
   padding: 50px 20px 0 20px;
   width: 100%;
-  height: auto;
 }
 .img-header{
   width: 130px;
@@ -207,6 +206,9 @@ label {
 }
 .menu{
   display: none;
+}
+header{
+  height: 90px;
 }
 /* .nav-color1 {
   display: flex;
