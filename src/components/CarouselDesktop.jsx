@@ -15,15 +15,11 @@ const CarouselDesktop = () => {
     <div className="container-carousel my-4 c-desktop">
 
       <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
-        {/* <div className="controls-top">
-          <a className="btn-floating" href="#multi-item-example" data-slide="prev"><img src={arrow2} alt='arrow' className="fa fa-chevron-left" /></a>
-          <a className="btn-floating" href="#multi-item-example" data-slide="next"><img src={arrow1} alt='arrow' className="fa fa-chevron-right" /></a>
-        </div> */}
-        <ol className="carousel-indicators">
+        {/* <ol className="carousel-indicators">
           <li data-target="#multi-item-example" data-slide-to="0" className="active"></li>
           <li data-target="#multi-item-example" data-slide-to="1"></li>
           <li data-target="#multi-item-example" data-slide-to="2"></li>
-        </ol>
+        </ol> */}
         <div className="carousel-inner" role="listbox">
           <div className="carousel-item active">
 
@@ -76,7 +72,7 @@ const CarouselDesktop = () => {
                     <img className="card-img-top size-card" src={cipher} alt='project' />
                     <div className="card-body c-color card-color">
                       <h4 className="card-title">Cipher</h4>
-                      <p className="card-text">Creación de una plataforma de uso interno para codificar y decoficar mensajes por medio del Cifrado Cesar...</p>
+                      <p className="card-text">Creación de una plataforma para codificar y decoficar mensajes por medio del Cifrado Cesar...</p>
                     </div>
                   </a>
                 </div>
@@ -88,7 +84,7 @@ const CarouselDesktop = () => {
                     <img className="card-img-top size-card" src={Comidapt} alt='project' />
                     <div className="card-body c-color card-color">
                       <h4 className="card-title">Comida Para Todos</h4>
-                      <p className="card-text">Rediseño de la plataforma de Comida para Todos...</p>
+                      <p className="card-text">Rediseño de la plataforma de Comida para Todos, de una landing page a una web completa...</p>
                     </div>
                   </a>
                 </div>

@@ -32,8 +32,6 @@ const skills = () => {
             <span className="iconify icon-skills" data-inline="false" data-icon="bx:bxs-file-css"></span>
             <p>Css</p>
           </div>
-        </div>
-        <div className='container-tecnicals'>
           <div className='container-icon'>
             <span className="iconify icon-skills" data-inline="false" data-icon="ion:logo-firebase"></span>
             <p>Fibase</p>
@@ -46,7 +44,7 @@ const skills = () => {
             <span className="iconify icon-skills" data-inline="false" data-icon="fa-brands:react"></span>
             <p>React</p>
           </div>
-        </div>
+        </div >
       </section>
       <Footer />
     </div >
