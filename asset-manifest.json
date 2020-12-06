@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/PORTAFOLIO-SamanthaM/static/css/main.cc5e20a8.chunk.css",
-    "main.js": "/PORTAFOLIO-SamanthaM/static/js/main.baf38dc1.chunk.js",
-    "main.js.map": "/PORTAFOLIO-SamanthaM/static/js/main.baf38dc1.chunk.js.map",
+    "main.css": "/PORTAFOLIO-SamanthaM/static/css/main.1a6a1cf6.chunk.css",
+    "main.js": "/PORTAFOLIO-SamanthaM/static/js/main.1cae8caf.chunk.js",
+    "main.js.map": "/PORTAFOLIO-SamanthaM/static/js/main.1cae8caf.chunk.js.map",
     "runtime-main.js": "/PORTAFOLIO-SamanthaM/static/js/runtime-main.39a1e621.js",
     "runtime-main.js.map": "/PORTAFOLIO-SamanthaM/static/js/runtime-main.39a1e621.js.map",
     "static/js/2.b35616ac.chunk.js": "/PORTAFOLIO-SamanthaM/static/js/2.b35616ac.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.89e8cacb.chunk.js": "/PORTAFOLIO-SamanthaM/static/js/3.89e8cacb.chunk.js",
     "static/js/3.89e8cacb.chunk.js.map": "/PORTAFOLIO-SamanthaM/static/js/3.89e8cacb.chunk.js.map",
     "index.html": "/PORTAFOLIO-SamanthaM/index.html",
-    "static/css/main.cc5e20a8.chunk.css.map": "/PORTAFOLIO-SamanthaM/static/css/main.cc5e20a8.chunk.css.map",
+    "static/css/main.1a6a1cf6.chunk.css.map": "/PORTAFOLIO-SamanthaM/static/css/main.1a6a1cf6.chunk.css.map",
     "static/js/2.b35616ac.chunk.js.LICENSE.txt": "/PORTAFOLIO-SamanthaM/static/js/2.b35616ac.chunk.js.LICENSE.txt",
     "static/media/CV-Samantha-Moreno.252663de.pdf": "/PORTAFOLIO-SamanthaM/static/media/CV-Samantha-Moreno.252663de.pdf",
     "static/media/Easycook.c69d7fb9.png": "/PORTAFOLIO-SamanthaM/static/media/Easycook.c69d7fb9.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.39a1e621.js",
     "static/js/2.b35616ac.chunk.js",
-    "static/css/main.cc5e20a8.chunk.css",
-    "static/js/main.baf38dc1.chunk.js"
+    "static/css/main.1a6a1cf6.chunk.css",
+    "static/js/main.1cae8caf.chunk.js"
   ]
 }
