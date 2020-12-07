@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio-samantham/static/css/main.acef351c.chunk.css",
-    "main.js": "/portafolio-samantham/static/js/main.a89e41f3.chunk.js",
-    "main.js.map": "/portafolio-samantham/static/js/main.a89e41f3.chunk.js.map",
+    "main.js": "/portafolio-samantham/static/js/main.66d7aeb4.chunk.js",
+    "main.js.map": "/portafolio-samantham/static/js/main.66d7aeb4.chunk.js.map",
     "runtime-main.js": "/portafolio-samantham/static/js/runtime-main.8df450bd.js",
     "runtime-main.js.map": "/portafolio-samantham/static/js/runtime-main.8df450bd.js.map",
     "static/js/2.b35616ac.chunk.js": "/portafolio-samantham/static/js/2.b35616ac.chunk.js",
@@ -31,6 +31,6 @@
     "static/js/runtime-main.8df450bd.js",
     "static/js/2.b35616ac.chunk.js",
     "static/css/main.acef351c.chunk.css",
-    "static/js/main.a89e41f3.chunk.js"
+    "static/js/main.66d7aeb4.chunk.js"
   ]
 }
