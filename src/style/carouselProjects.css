@@ -8,7 +8,6 @@
   padding-bottom: 20px;
   color: #fff;
   text-align: initial;
-  border-radius: 0 0 10px 10px;
   padding: 10px;
 }
 .c-color{
@@ -16,7 +15,7 @@
   color: #fff;
   border-radius: 0 0 10px 10px;
   padding: 10px;
-  height: auto;
+  height: 195px;
 }
 .carousel-caption p {
  line-height: 1.2rem;

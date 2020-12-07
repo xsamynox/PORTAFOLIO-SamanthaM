@@ -13,12 +13,13 @@ const skills = () => {
         <p>SKILLS</p>
         <hr />
       </div>
-      <div className='title-second'>
-        <p>TÉCNICAS</p>
-        <hr />
-      </div>
+
 
       <section className='title-second container'>
+        <div className='title-second'>
+          <p>TÉCNICAS</p>
+          <hr />
+        </div>
         <div className='container-tecnicals'>
           <div className='container-icon'>
             <span className="iconify icon-skills" data-inline="false" data-icon="cib:javascript"></span>

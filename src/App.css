@@ -11,11 +11,11 @@ header{
   width: 100%;
 }
 .img-header{
-  width: 120px;
+  width: 114px;
   height: auto;
   position: absolute;
-  left: 9vh;
-  top: 13.61%;
+  left: 10vh;
+  top: 3.61%;
   bottom: 80.5%;  
   display: none;
 }
@@ -72,7 +72,7 @@ header{
   text-align: center;
 }
 .image-sam{
-  width: 46vw;
+  width: 31vh;
   height: auto;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   top: 30.89%;
@@ -117,9 +117,9 @@ footer{
   background-color: #404143;
   width: 100%;
   bottom: 0;
-  height: 98px;
+  height: 80px;
   justify-content: space-between;
-  padding: 30px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
   position: fixed;
 }
 footer h1{
@@ -182,18 +182,20 @@ label {
   text-align: left;
 }
 .navbar-brand{
-  margin-right: 4em;
+  margin-right: 2em;
 }
-
+.navbar-brand {
+  font-size: 1.1em;
+}
 @media (min-width: 1440px) and (max-width: 2560px) {
 .image-sam{
-  width: 20vw;
+  width: 15vw;
 }
 .title{
-  font-size: 60px;
+  font-size: 50px;
 }
 .sub-title{
-  font-size: 30px;
+  font-size: 25px;
 }
 .container-contact, .contact {
   margin-top: 0;
@@ -205,12 +207,12 @@ label {
   display: none;
 }
 header, .nav-color1{
-  height: 80px;
+  height: 60px;
 }
 .container{
   margin: auto;
   width: 50vw;
-  font-size: 1.2em;
+  font-size: 1em;
   height: 60vh;
 }
 .title-contact, .text-contact1{
@@ -225,6 +227,7 @@ header, .nav-color1{
 .container-contact hr{
 display: none;
 }
+
 /* .nav-color1 {
   display: flex;
 } */

@@ -1,10 +1,10 @@
 import React from 'react';
-import EasyCook from '../images/Easycook.png';
-import datalover from '../images/d-lovers.png';
-import RetroBurger from '../images/retroburger.png';
-import Comidapt from '../images/comidapt.png';
-import mdlinks from '../images/md-links.png';
-import cipher from '../images/cipher.png';
+import EasyCook from '../images/e-cook.png';
+import datalover from '../images/d-lover.png';
+import RetroBurger from '../images/r-burger.png';
+import Comidapt from '../images/comida.png';
+import mdlinks from '../images/m-links.png';
+import cipher from '../images/cipherd.png';
 import arrow1 from '../images/arrow1.png';
 import arrow2 from '../images/arrow2.png';
 import '../style/carouselProjects.css';
@@ -14,7 +14,7 @@ const CarouselDesktop = () => {
   return (
     <div className="container-carousel my-4 c-desktop">
 
-      <div id="multi-item-example" className="carousel slide carousel-multi-item" data-ride="carousel">
+      <div id="multi-item-example" className="carousel slide carousel-multi-item margin" data-ride="carousel">
         {/* <ol className="carousel-indicators">
           <li data-target="#multi-item-example" data-slide-to="0" className="active"></li>
           <li data-target="#multi-item-example" data-slide-to="1"></li>
