@@ -12,23 +12,23 @@ import './App.css';
 
 function App() {
   return (
-    <Router basename={window.location.pathname || ''}>
+    <Router>
       <Switch>
         <Route
-          exact path="/smoreno"
+          exact path="/"
           render={() => <Home />} />
       </Switch>
       <Route
-        exact path="/smoreno/aboutme"
+        exact path="/aboutme"
         render={() => <Aboutme />} />
       <Route
-        exact path="skills"
+        exact path="/skills"
         render={() => <Skills />} />
       <Route
-        exact path="projects"
+        exact path="/projects"
         render={() => <Projects />} />
       <Route
-        exact path="contact"
+        exact path="/contact"
         render={() => <Contact />} />
       {/* <Route component={NotFoundPage} /> */}
     </Router >

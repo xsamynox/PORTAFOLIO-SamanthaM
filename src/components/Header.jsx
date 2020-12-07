@@ -10,7 +10,7 @@ const Header = () => {
           data-icon="heroicons-outline:menu" />
 
         <div>
-          <a href="./">
+          <a href="/">
             <img src={Sami} alt='Samantha' className='img-header' />
           </a>
         </div>
@@ -21,7 +21,7 @@ const Header = () => {
               <a className="navbar-brand" href="/" id='home'>Home</a>
             </li>
             <li className="nav-item">
-              <a className="navbar-brand" href="/smoreno/aboutme" id='aboutme'>Sobre mi</a>
+              <a className="navbar-brand" href="/aboutme" id='aboutme'>Sobre mi</a>
             </li>
             <li className="nav-item">
               <a className="navbar-brand" href="/skills" id='skills'>Skills</a>

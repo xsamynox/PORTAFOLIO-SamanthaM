@@ -3,7 +3,7 @@ import React from 'react';
 const Botton = () => {
   return (
     <div className='ctn-btn'>
-      <a href='/smoreno/aboutme'><button className="btn-conoceme">Conóceme</button></a>
+      <a href='/aboutme'><button className="btn-conoceme">Conóceme</button></a>
     </div>
   );
 }
