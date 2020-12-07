@@ -15,20 +15,20 @@ function App() {
     <Router basename={window.location.pathname || ''}>
       <Switch>
         <Route
-          exact path="/"
+          exact path=""
           render={() => <Home />} />
       </Switch>
       <Route
-        exact path="/aboutme"
+        exact path="aboutme"
         render={() => <Aboutme />} />
       <Route
-        exact path="/skills"
+        exact path="skills"
         render={() => <Skills />} />
       <Route
-        exact path="/projects"
+        exact path="projects"
         render={() => <Projects />} />
       <Route
-        exact path="/contact"
+        exact path="contact"
         render={() => <Contact />} />
       {/* <Route component={NotFoundPage} /> */}
     </Router >
