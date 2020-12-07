@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "homepage": "https://xsamynox.github.io/PORTAFOLIO-SamanthaM/",
-=======
-  "homepage": "http://xsamynox.github.io/PORTAFOLIO-SamanthaM/",
->>>>>>> 7c57987a5a83b996009437fbb675dbde5cc807f5
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
