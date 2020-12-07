@@ -15,11 +15,11 @@ function App() {
     <Router basename={window.location.pathname || ''}>
       <Switch>
         <Route
-          exact path=""
+          exact path="/smoreno"
           render={() => <Home />} />
       </Switch>
       <Route
-        exact path="aboutme"
+        exact path="/smoreno/aboutme"
         render={() => <Aboutme />} />
       <Route
         exact path="skills"
