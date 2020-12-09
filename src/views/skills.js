@@ -15,35 +15,39 @@ const skills = () => {
       </div>
 
 
-      <section className='title-second container'>
-        <div className='title-second'>
-          <p>TÉCNICAS</p>
-          <hr />
-        </div>
+      <section className='container'>
         <div className='container-tecnicals'>
           <div className='container-icon'>
-            <span className="iconify icon-skills" data-inline="false" data-icon="cib:javascript"></span>
+            <span className="iconify icon-skills" data-inline="false" data-icon="cib:javascript" />
             <p>javascript</p>
           </div>
           <div className='container-icon'>
-            <span className="iconify icon-skills" data-inline="false" data-icon="bx:bxs-file-html"></span>
+            <span className="iconify icon-skills" data-inline="false" data-icon="bx:bxs-file-html" />
             <p>Html</p>
           </div>
           <div className='container-icon'>
-            <span className="iconify icon-skills" data-inline="false" data-icon="bx:bxs-file-css"></span>
+            <span className="iconify icon-skills" data-inline="false" data-icon="bx:bxs-file-css" />
             <p>Css</p>
           </div>
           <div className='container-icon'>
-            <span className="iconify icon-skills" data-inline="false" data-icon="ion:logo-firebase"></span>
+            <span className="iconify icon-skills" data-inline="false" data-icon="ion:logo-firebase" />
             <p>Fibase</p>
           </div>
           <div className='container-icon'>
-            <span className="iconify icon-skills" data-inline="false" data-icon="fa-brands:figma"></span>
+            <span className="iconify icon-skills" data-inline="false" data-icon="fa-brands:figma" />
             <p>Figma</p>
           </div>
           <div className='container-icon'>
-            <span className="iconify icon-skills" data-inline="false" data-icon="fa-brands:react"></span>
+            <span className="iconify icon-skills" data-inline="false" data-icon="fa-brands:react" />
             <p>React</p>
+          </div>
+          <div className='container-icon'>
+            <span class="iconify icon-skills" data-inline="false" data-icon="ant-design:github-filled" />
+            <p>Github</p>
+          </div>
+          <div className='container-icon'>
+            <span class="iconify icon-skills" data-inline="false" data-icon="cib:git" />
+            <p>Git</p>
           </div>
         </div >
       </section>

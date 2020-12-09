@@ -1,6 +1,6 @@
 .container-icon{
-    display: flex;
-    justify-content: space-between;
+    text-align: center;
+    padding: 5%;
 }
 .container-icon p {
     color: #ffffff;
@@ -8,4 +8,11 @@
 .icon-skills{ 
     color: #ffffff;
     font-size: 6vh;
+}
+.container-tecnicals{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
