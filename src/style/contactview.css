@@ -4,11 +4,14 @@
   position: absolute;
   left: 34.4%;
   right: 34.4%;
-  top: 30.64%;
+  top: 23.64%;
   bottom: 56.31%;
   z-index: 99;
 }
 
+.mt-4, .my-4 {
+    margin-top: 0rem!important;
+}
 .contact{ 
   /* position: absolute; */
   padding: 60px 20px 0;
@@ -61,8 +64,14 @@ hr{
 }
 .container-contact{
   width: 334px;
+  padding-top: 71px;
+  width: 335px;
+  height: auto;
   text-align: center;
   justify-content: center;
+  position: absolute;
+  margin-bottom: 120px;
+  top: 32%;
 }
 .btn-descarga{
     width: 23vh;
@@ -77,8 +86,7 @@ hr{
     justify-content: center;
     display: flex;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+   margin: auto;
     font-size: 1em;
 }
 .btn-descarga:hover{
