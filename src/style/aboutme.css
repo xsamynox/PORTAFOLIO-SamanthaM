@@ -1,10 +1,11 @@
 .container{
   padding: 20px;
-  background-color: #62ACB0;
+  background-color: #62acb0;
   width: 90vw;
-  height: 400px;
+  height: auto;
   border-radius: 10px;
   left: 22px;
+  margin-bottom: 100px;
 }
 .title-hobbie{
   margin-top: 20px;
