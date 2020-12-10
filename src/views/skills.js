@@ -10,7 +10,7 @@ const skills = () => {
     <div>
       <Header />
       <div className='title-contact'>
-        <p>SKILLS</p>
+        <p>HABILIDADES Y HERRAMIENTAS</p>
         <hr />
       </div>
 
@@ -42,12 +42,24 @@ const skills = () => {
             <p>React</p>
           </div>
           <div className='container-icon'>
-            <span class="iconify icon-skills" data-inline="false" data-icon="ant-design:github-filled" />
+            <span className="iconify icon-skills" data-inline="false" data-icon="ant-design:github-filled" />
             <p>Github</p>
           </div>
           <div className='container-icon'>
-            <span class="iconify icon-skills" data-inline="false" data-icon="cib:git" />
+            <span className="iconify icon-skills" data-inline="false" data-icon="cib:git" />
             <p>Git</p>
+          </div>
+          <div className='container-icon'>
+            <span className="iconify icon-skills" data-inline="false" data-icon="cib:visual-studio-code" />
+            <p>VSC</p>
+          </div>
+          <div className='container-icon'>
+            <span className="iconify icon-skills" data-inline="false" data-icon="bi:bootstrap-fill" />
+            <p>Bootstrap</p>
+          </div>
+          <div className='container-icon'>
+            <span className="iconify icon-skills" data-inline="false" data-icon="cib:trello" />
+            <p>Trello</p>
           </div>
         </div >
       </section>

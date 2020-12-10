@@ -6,7 +6,6 @@ import Samantha from '../images/Samantha.png';
 import CURRICULUM from '../curriculum/CV-Samantha-Moreno.pdf';
 import '../style/contactview.css';
 
-
 const contact = () => {
 
   return (
@@ -28,7 +27,7 @@ const contact = () => {
           <li><i className="fas fa-envelope mt-4 fa-2x" style={{ fontSize: '48px', color: '#ffffff' }}></i>
             <p className='text-contact'>xsamynox@gmail.com</p>
           </li>
-          <li> <span class="iconify" data-inline="false" data-icon="emojione-v1:trophy" style={{ fontSize: '48px' }}></span>
+          <li> <span className="iconify" data-inline="false" data-icon="emojione-v1:trophy" style={{ fontSize: '48px' }}></span>
             <a href='https://app.talento.laboratoria.la/profile/USTRKGOdRea6YvEJSc4bUxfAkmc2'><p className='text-contact'>App Talento laboratoria</p></a>
           </li>
           <li>

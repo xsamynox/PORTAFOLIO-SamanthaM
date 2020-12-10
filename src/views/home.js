@@ -23,7 +23,7 @@ const home = () => {
                 <a className="navbar-brand" href="/aboutme" id='aboutme'>Sobre mi</a>
               </li>
               <li className="nav-item">
-                <a className="navbar-brand" href="/skills" id='skills'>Skills</a>
+                <a className="navbar-brand" href="/skills" id='skills'>Habilidades</a>
               </li>
               <li className="nav-item">
                 <a className="navbar-brand" href="/projects" id='projects'>Proyectos</a>

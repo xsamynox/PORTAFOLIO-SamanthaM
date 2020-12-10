@@ -107,13 +107,13 @@ const CarouselDesktop = () => {
         </div>
 
       </div>
-      <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+      <a className="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
         <a className="btn-floating" href="#multi-item-example" data-slide="prev"><img src={arrow2} alt='arrow' className="fa fa-chevron-left" /></a>
-        <span class="sr-only">Previous</span>
+        <span className="sr-only">Previous</span>
       </a>
-      <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+      <a className="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
         <a className="btn-floating" href="#multi-item-example" data-slide="next"><img src={arrow1} alt='arrow' className="fa fa-chevron-right" /></a>
-        <span class="sr-only">Next</span>
+        <span className="sr-only">Next</span>
       </a>
     </div>
   );

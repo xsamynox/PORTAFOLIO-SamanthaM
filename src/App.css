@@ -215,7 +215,7 @@ label {
 header, .nav-color1{
   height: 60px;
 }
-.container{
+.container {
   margin: auto;
   width: 50vw;
   font-size: 1em;
@@ -230,11 +230,7 @@ header, .nav-color1{
 .img-sam {
   display: none;
 }
-.container-contact hr{
-display: none;
+.container-contact{
+  position: relative;
 }
-
-/* .nav-color1 {
-  display: flex;
-} */
 }
