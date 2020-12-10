@@ -18,7 +18,7 @@ const contact = () => {
 
       <img className='img-sam' src={Samantha} alt='Samantha Moreno' />
 
-      <div className="container-contact container">
+      <div className="container-contact">
         <ul className="list-unstyled mb-0">
 
           <li><i className="fas fa-map-marker-alt fa-2x" style={{ fontSize: '48px', color: '#ffffff' }}></i>

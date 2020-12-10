@@ -203,12 +203,6 @@ label {
 .sub-title{
   font-size: 25px;
 }
-.container-contact, .contact {
-  margin-top: 0;
-  margin: auto;
-  width: 60vw;
-  font-size: 1.3em;
-}
 .menu{
   display: none;
 }
@@ -230,7 +224,5 @@ header, .nav-color1{
 .img-sam {
   display: none;
 }
-.container-contact{
-  position: relative;
-}
+
 }
